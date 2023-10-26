@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+form {
+    width: max-content;
+    padding:25px 40px 28px;
+    margin: 200px auto;
+    border-radius: 7px;
+    box-shadow: 4px 4px 2px 15px rgba(197, 217, 230, 0.842);
+    animation: forms 5s infinite;
+    transition: .3s;
+}
+
+@keyframes forms {
+    0% {
+        box-shadow: 1px 4px 2px 15px rgba(197, 217, 230, 0.678);
+
+    }
+    25% {
+        box-shadow: 1px 4px 2px 15px rgba(197, 230, 208, 0.5);
+
+    }
+    50% {
+        box-shadow: 1px 4px 2px 15px rgba(230, 206, 197, 0.514);
+
+    }
+    75% {
+        box-shadow: 1px 4px 2px 15px rgba(230, 197, 220, 0.534);
+
+    }
+    100% {
+        box-shadow: 1px 4px 2px 15px rgba(224, 230, 197, 0.521);
+    }
+}
+
+h1 {
+    margin: 0 0 20px;
+    text-align: center;
+    font-size: 26px;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    margin: 0 0 4px;
+    color: rgb(156, 158, 161);
+    font-weight: 600;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px rgba(187, 181, 181, 0.678) solid;
+    box-shadow: 0 0 2px rgba(165, 160, 160, 0.699);
+}
+
+input:focus {
+    outline: none;
+}
+
+.red {
+    border: 1px solid red;
+}
+
+.green {
+    border: 1px solid green;
+}
+
+.opacity {
+    color: red;
+    font-size: 14px;
+    margin: 5px 0;
+    opacity: 1;
+}
+
+.green {
+    border: 1px solid green;
+}
+
+.alldiv {
+    margin: 6px 0;
+}
+
+.submit input {
+    padding: 12px;
+    background-color: #3798DA;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 15px;
+    color: aliceblue;
+    margin: 10px 0 0;
+}
+
+/*/////////////////////////////////////////////////////////////
+                        Media Queries
+//////////////////////////////////////////////////////////// */
+/* 
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    form {
+        width: 36%;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    form {
+        width: 50%;
+    }
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+    form {
+        width: 86%;
+    }
+} */
